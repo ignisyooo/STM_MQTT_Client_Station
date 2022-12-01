@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug STLink",
+            "request": "launch",
+            "type": "cortex-debug",
+            "cwd": "${workspaceFolder}",
+            "armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin",
+            "gdbPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gdb.exe",
+            "executable": "${workspaceFolder}/build/F767_MQTT_Station.elf",
+            "servertype": "openocd",
+            "device": "STM32F767ZI",
+            "svdFile": "STM32F7x7.svd",
+            "configFiles": [
+                "C:/Program Files/OpenOCD/share/openocd/scripts/interface/stlink.cfg",
+                "C:/Program Files/OpenOCD/share/openocd/scripts/target/stm32f7x.cfg"
+            ],
+            "runToEntryPoint": "main"
+        }
+    ]
+}

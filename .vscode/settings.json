@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "ssd1306_oled.h": "c",
+        "gfx_bw.h": "c",
+        "stdio.h": "c",
+        "cc.h": "c",
+        "cmsis_os.h": "c",
+        "fonts.h": "c",
+        "logger.h": "c",
+        "i2c.h": "c",
+        "lwip.h": "c",
+        "stdarg.h": "c",
+        "cstdio": "c",
+        "dns.h": "c",
+        "main.h": "c",
+        "mqtt_api.h": "c",
+        "mqtt_client.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": false
+}
